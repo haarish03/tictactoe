@@ -152,14 +152,14 @@ margin-top: -10px;
     };
   }
   
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 340px) {
     h1{
         font-size:35px;
         
     };
     }
     
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 340px) {
  
 
 td {
@@ -169,6 +169,19 @@ td {
 
 }
     }
+    @media only screen and (max-width: 500px) {
+        h1{
+            font-size:42px;
+            
+        };
+
+        td {
+            width: 90px;
+            height: 90px;
+            border: 6px solid #FF4B2B;
+        
+        }
+            }
   
   
 
